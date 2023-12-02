@@ -10,15 +10,15 @@ export class CriarPensamentoComponent {
     id: '1',
     conteudo: 'aprendendo angular',
     autoria: 'Dev',
-    modelo: ''
+    modelo: 'modelo1'
   }
 
   criarPensamento(){
     alert("Novo pensamento criado")
   }
 
-  cancelarPensamento(){
-    alert("Pensamento cancelado")
+  cancelar(){
+    alert("Acao cancelada!")
   }
 
 }
