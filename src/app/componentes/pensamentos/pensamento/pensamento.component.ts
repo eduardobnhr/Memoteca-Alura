@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Pensamento } from '../pensamento';
 
 @Component({
@@ -6,7 +6,7 @@ import { Pensamento } from '../pensamento';
   templateUrl: './pensamento.component.html',
   styleUrls: ['./pensamento.component.css']
 })
-export class PensamentoComponent {
+export class PensamentoComponent implements OnInit{
 
     @Input() pensamento: Pensamento = {
       id: 0,
@@ -19,6 +19,10 @@ export class PensamentoComponent {
       return 'pensamento-g'
     }
     return 'pensamento-p'
+  }
+
+  ngOnInit(): void {
+      
   }
 
 }

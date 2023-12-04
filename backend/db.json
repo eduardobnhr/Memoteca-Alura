@@ -17,6 +17,12 @@
       "conteudo": " backend angular",
       "autoria": "martins",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "testando funcao de editar",
+      "autoria": "angular",
+      "modelo": "modelo3",
+      "id": 3
     }
   ]
 }
