@@ -4,54 +4,63 @@
       "id": 1,
       "conteudo": "mexendo com backend",
       "autoria": " Dev luis eduardo",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "testando backend da aplicacao angular",
       "autoria": "Dev eduardo",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": " backend angular",
       "autoria": "martins",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "testando funcao de editar",
       "autoria": "angular",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "lado oculto da força",
       "autoria": "yodart vaider",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 5
     },
     {
       "id": 6,
       "conteudo": "dsadasdsada",
       "autoria": "sdss",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "conteudo": "dasdsad",
       "autoria": "asdsad",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 7
     },
     {
       "conteudo": "sadsadad",
       "autoria": "asdsad",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 8
     },
     {
       "conteudo": "asdasdsa",
       "autoria": "asdsad",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 9
     }
   ]
